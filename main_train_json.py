@@ -25,7 +25,7 @@ parser.add_argument('--save_prefix', type=str, default='SROIE',
 parser.add_argument('--test_path', type=str, default='')
 
 # ckpt
-parser.add_argument('--restore_ckpt', type=bool, default=True)
+parser.add_argument('--restore_ckpt', type=bool, default=False)
 # effective when restore_ckpt is True
 parser.add_argument('--restore_bertembedding_only', type=bool, default=False)
 parser.add_argument('--embedding_file', type=str,
